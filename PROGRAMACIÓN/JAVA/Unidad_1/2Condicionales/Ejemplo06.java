@@ -1,11 +1,11 @@
 import java.util.Scanner;
-public class Ejemplo6{
+public class Ejemplo06{
 	public static void main(String[] args){
 
 		Scanner teclado = new Scanner(System.in);
 
 
-		System.out.println("adivina la palabra");
+		System.out.println("Adivina la palabra");
 		
 		String texto = teclado.nextLine();
 		

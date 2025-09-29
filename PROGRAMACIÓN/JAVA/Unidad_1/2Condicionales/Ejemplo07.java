@@ -1,10 +1,10 @@
 import java.util.Scanner;
-public class Ejemplo7{
+public class Ejemplo07{
 	public static void main(String[] args){
 
 		Scanner teclado = new Scanner(System.in);
 
-			System.out.println("Introduce un dia de la semana para ver que tienes que hacer: ");
+			System.out.print("Introduce un dia de la semana para ver que tienes que hacer: ");
 
 			String dia = teclado.nextLine().trim();
 
@@ -30,7 +30,7 @@ public class Ejemplo7{
 			}
 			else if (dia.equalsIgnoreCase("sabado")|| dia.equalsIgnoreCase("domingo")){
 
-				System.out.println("Na de na");
+				System.out.println("No tienes clase!");
 			}
 			else{
 				System.out.println("No es un dia o esta mal escrito.");

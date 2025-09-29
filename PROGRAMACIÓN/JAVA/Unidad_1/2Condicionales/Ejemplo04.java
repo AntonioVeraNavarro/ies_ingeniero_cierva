@@ -1,20 +1,20 @@
 import java.util.Scanner;
-public class Ejemplo4{
+public class Ejemplo04{
 	public static void main(String[] args){
 		Scanner teclado = new Scanner(System.in);
 
-		System.out.println("introduce un numero para comprobar si es par o impar: ");
+		System.out.print("Introduce un numero para comprobar si es par o impar: ");
 
 		int numero = Integer.parseInt(teclado.nextLine());
 
 
 		if( numero%2 == 0 ){
 
-			System.out.println("el numero es par");
+			System.out.println("El numero es par");
 		}
 		else{
 
-			System.out.println("el numero es impar");
+			System.out.println("El numero es impar");
 		}
 
 

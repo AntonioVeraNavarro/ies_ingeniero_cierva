@@ -22,11 +22,11 @@ public class Ejemplo10{
 		
 		*/
 
-		System.out.println("introduce un numero: ");
+		System.out.print("Introduce un numero: ");
 
 		int numero = Integer.parseInt(teclado.nextLine());
 
-		System.out.println("introduce tu nombre: ");
+		System.out.print("Introduce tu nombre: ");
 		String nombre = teclado.nextLine();
 
 		System.out.println("Tu nombre es: " + nombre);

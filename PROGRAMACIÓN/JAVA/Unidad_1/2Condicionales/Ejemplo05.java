@@ -1,9 +1,9 @@
 import java.util.Scanner;
-public class Ejemplo5{
+public class Ejemplo05{
 	public static void main(String[] args){
 		Scanner teclado = new Scanner(System.in);
 
-		System.out.println("Escribe tu nota para recibir tu calificacion: ");
+		System.out.print("Escribe tu nota para recibir tu calificacion: ");
 
 		double nota = Double.parseDouble(teclado.nextLine());
 

@@ -1,21 +1,16 @@
 
-public class Ejemplo2{
+public class Ejemplo02{
 	public static void main(String[] args){
-		
-
-		
-
 		int numero = 8;
-
 		System.out.println("Condicion: " + (numero > 0));
 
 		if (numero > 0){
 
-			System.out.println("el numero es positivo");
+			System.out.println("El numero es positivo");
 		}
 		else{
 
-			System.out.println("el numero es negativo");
+			System.out.println("El numero es negativo");
 		}
 
 

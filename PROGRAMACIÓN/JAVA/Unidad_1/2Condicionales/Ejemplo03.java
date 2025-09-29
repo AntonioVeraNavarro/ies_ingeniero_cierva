@@ -1,21 +1,21 @@
 import java.util.Scanner;
-public class Ejemplo3{
+public class Ejemplo03{
 	public static void main(String[] args){
 		Scanner teclado = new Scanner(System.in);
 
-		System.out.println("introduce un numero: ");
+		System.out.print("Introduce un numero: ");
 
 		int numero = teclado.nextInt();
 
 		System.out.println("Condicion: " + (numero > 0));
 
-		if (numero>0){
+		if (numero > 0){
 
-			System.out.println("el numero es positivo");
+			System.out.println("El numero es positivo");
 		}
 		else{
 
-			System.out.println("el numero es negativo");
+			System.out.println("El numero es negativo");
 		}
 
 

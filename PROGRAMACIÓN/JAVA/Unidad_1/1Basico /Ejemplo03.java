@@ -2,7 +2,7 @@ public class Ejemplo03{
 
 	public static void main(String[] args){
 
-		String nombre = "JuanSebas" ;  
+		String nombre = "Antonio" ;  
 		int numero = 5;
 		int numero2 = 14;
 
