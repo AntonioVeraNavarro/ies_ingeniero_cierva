@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Pruebaconversion{
 	public static void main (String[] args){
 

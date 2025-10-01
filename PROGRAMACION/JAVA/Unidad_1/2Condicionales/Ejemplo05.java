@@ -32,6 +32,6 @@ public class Ejemplo05{
 			System.out.println("Tu calificacion es: SOBRESALIENTE");			
 		}
 		
-
+		teclado.close();
 	}
 }

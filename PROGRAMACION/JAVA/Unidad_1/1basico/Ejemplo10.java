@@ -31,5 +31,6 @@ public class Ejemplo10{
 
 		System.out.println("Tu nombre es: " + nombre);
 		System.out.println("El numero es: " + numero);
+		teclado.close();
 	}
 }

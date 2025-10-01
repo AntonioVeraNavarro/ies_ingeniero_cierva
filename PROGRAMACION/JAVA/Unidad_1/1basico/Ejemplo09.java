@@ -15,6 +15,6 @@ public class Ejemplo09{
 
 		 System.out.println("El primer numero es: " + num1);	
 		 System.out.println("El segundo numero es: " + num2);	
-
+		 teclado.close();
 	}
 }

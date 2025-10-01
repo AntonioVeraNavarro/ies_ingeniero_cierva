@@ -18,6 +18,6 @@ public class Ejemplo04{
 		}
 
 
-
+		teclado.close();
 	}
 }

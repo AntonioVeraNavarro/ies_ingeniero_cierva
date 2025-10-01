@@ -19,7 +19,7 @@ public class Ejemplo06{
 			System.out.println("la palabra no coincide");
 		}
 
-
+		teclado.close();
 	}
   
 }

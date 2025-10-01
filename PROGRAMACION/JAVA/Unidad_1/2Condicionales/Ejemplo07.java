@@ -36,6 +36,6 @@ public class Ejemplo07{
 				System.out.println("No es un dia o esta mal escrito.");
 			}
 
-
+		teclado.close();
 	}
 }

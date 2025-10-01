@@ -10,6 +10,6 @@ public class Ejemplo05{
 
 		String nombre = teclado.nextLine();
 		System.out.println("El nombre es: " + nombre);
-
+		teclado.close();
 	}
 }

@@ -11,6 +11,6 @@ public class Ejemplo06{
 
 		System.out.println("El numero " + numero + " entre 2 da: " + (numero/2) );
 
-
+		teclado.close();
 	}
 }

@@ -27,5 +27,6 @@ public class Nota{
 		else if(mark <0 || mark >10){
 			System.out.println("Nota no válida.");
 		}
+		keyboard.close();
  	}
 }

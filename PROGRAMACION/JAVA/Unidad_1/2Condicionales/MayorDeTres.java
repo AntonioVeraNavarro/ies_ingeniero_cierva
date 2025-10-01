@@ -42,6 +42,6 @@ public class MayorDeTres{
 			System.out.println("Los tres son iguales");
 		}
 
-
+		teclado.close();
 	}
 }

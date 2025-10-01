@@ -13,6 +13,6 @@ public class Ejemplo08{
 
 		 System.out.println("El primer numero es: " + numero1);	
 		 System.out.println("El segundo numero por 2 es: " + (numero2*2));	
-
+		 teclado.close();
 	}
 }

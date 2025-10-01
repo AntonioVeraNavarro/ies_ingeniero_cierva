@@ -11,6 +11,6 @@ public class Ejemplo07{
 
 		System.out.println("El numero " + numero + " por 2 da: " + (numero*2) );
 
-
+		teclado.close();
 	}
 }
