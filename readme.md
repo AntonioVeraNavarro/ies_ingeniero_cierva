@@ -1,62 +1,74 @@
 # IES Ingeniero Cierva — Apuntes y ejercicios
 
-Autor: Antonio Vera Navarro (GitHub: `AntonioVeraNavarro`) (Web: 'https://antoniovera.es')
+Autor: Antonio Vera Navarro — https://antoniovera.es (GitHub: `AntonioVeraNavarro`)
 
-Repositorio: https://github.com/AntonioVeraNavarro/ies_ingeniero_cierva.git
+Repositorio: https://github.com/AntonioVeraNavarro/ies_ingeniero_cierva
 
-Índice
+## Índice
 
-- [Descripción](#descripción)
-- [Estructura del repositorio](#estructura-del-repositorio)
-- [Uso rápido](#uso-rápido)
-- [Buenas prácticas](#buenas-prácticas)
-- [Cómo contribuir](#cómo-contribuir)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+- Descripción
+- Estructura del repositorio
+- Uso rápido
+	- Clonar
+	- Ejecutar ejemplos (Python / Java / HTML)
+- Cómo contribuir
+- Contacto
 
-Descripción
+## Descripción
 
-Este repositorio recoge apuntes, ejercicios y materiales relacionados con las asignaturas de programación y lenguaje de marcas en el IES Ingeniero Cierva. Está organizado para facilitar el acceso a los ejercicios por unidad y tema.
+Colección de apuntes, ejercicios y material práctico para las asignaturas de programación (Java, Python) y lenguaje de marcas (HTML/CSS) del IES Ingeniero Cierva. Los ficheros están organizados por materia y unidades didácticas para facilitar su consulta.
 
-Estructura del repositorio
+## Estructura del repositorio (resumen)
 
 - `programacion/` — Ejercicios en Java y Python, organizados por unidades (por ejemplo: `1_unidad`, `2_unidad`).
-- `lenguaje_de_marcas/` — Ejemplos y prácticas de HTML/CSS.
-- `base_de_datos/` — Ficheros de ejemplo y apuntes relacionados con bases de datos.
+	- Java: ejemplos y ejercicios por unidad (p. ej. `1_unidad/`, `2_unidad/`).
+	- Python: ejercicios de unidad y pruebas (`unidad_1/`, `000ejercicios_examen/`, etc.).
+- `lenguaje_de_marcas/` — Prácticas y ejemplos de HTML/CSS.
+- `base_de_datos/` — Apuntes y ficheros de ejemplo relacionados con bases de datos.
 
-Uso rápido
+> Nota: la estructura está pensada para que cada unidad o tema sea una carpeta independiente con el material relacionado.
 
-1. Clona el repositorio:
+## Uso rápido
+
+1) Clonar el repositorio
 
 	 git clone https://github.com/AntonioVeraNavarro/ies_ingeniero_cierva.git
 
-2. Entra en la carpeta y abre los archivos con tu editor favorito (VS Code, Sublime, etc.).
+2) Abrir el proyecto
 
-3. Ejecuta los ejemplos según corresponda:
+	 - Abre la carpeta en tu editor (por ejemplo, Visual Studio Code).
 
-   - Python (requiere Python 3):
+3) Ejecutar ejemplos (ejemplos comunes):
 
-	   python Ejemplo01.py
+	 - Python (requiere Python 3):
 
-   - Java (requiere JDK instalado):
+		 - Moverse a la carpeta que contiene el script, por ejemplo `programacion/python/unidad_1/1basico` y ejecutar:
 
-	   javac NombreFichero.java
-	   java NombreFichero
+			 python Ejemplo01.py
 
+	 - Java (requiere JDK):
 
-Cómo contribuir
+		 - Compilar y ejecutar un fichero Java en la carpeta correspondiente, por ejemplo `programacion/java/1_unidad/1basico`:
 
-Si quieres aportar material útil para la asignatura, abre una pull request con:
+			 javac Ejemplo01.java
+			 java Ejemplo01
 
-- Una breve descripción del contenido.
-- Instrucciones para ejecutar o visualizar el material (si aplica).
-- Archivos organizados por carpeta y unidad.
+## Cómo contribuir
 
+Si quieres aportar material o mejoras:
 
-Contacto
+- Crea una rama con un nombre descriptivo.
+- Añade tus archivos organizados por materia y unidad (mantén la estructura existente).
+- Incluye una descripción clara en la PR sobre el contenido y cómo probarlo.
+- Si hay código ejecutable, añade instrucciones mínimas para ejecutarlo.
 
-Web: https://antoniovera.es/contacto
+Agradezco aportaciones y correcciones que ayuden a mantener el material actualizado y útil.
 
-GitHub: `AntonioVeraNavarro`
+## Contacto
 
---
+- Web / contacto: https://antoniovera.es/contacto
+- GitHub: AntonioVeraNavarro
+
+---
+
+Archivo generado y mantenido por Antonio Vera Navarro. Para dudas o sugerencias, usa la página de contacto del autor o abre una issue en el repositorio.
