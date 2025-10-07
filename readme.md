@@ -10,7 +10,7 @@ Repositorio: https://github.com/AntonioVeraNavarro/ies_ingeniero_cierva
 - Estructura del repositorio
 - Uso rápido
 	- Clonar
-	- Ejecutar ejemplos (Python / Java / HTML)
+	- Ejecutar ejemplos (Python / Java)
 - Cómo contribuir
 - Contacto
 
