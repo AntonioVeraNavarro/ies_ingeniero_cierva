@@ -43,11 +43,6 @@ Uso rápido
 	   javac NombreFichero.java
 	   java NombreFichero
 
-Buenas prácticas
-
-- Mantén los ficheros nombrados de forma clara (por ejemplo: `unidadX_ejercicioY.py`).
-- Incluye comentarios en el código para explicar la lógica.
-- Si añades soluciones o apuntes, indica la unidad y el tema en el nombre de la carpeta o en un mini-README.
 
 Cómo contribuir
 
@@ -57,9 +52,6 @@ Si quieres aportar material útil para la asignatura, abre una pull request con:
 - Instrucciones para ejecutar o visualizar el material (si aplica).
 - Archivos organizados por carpeta y unidad.
 
-Licencia
-
-Contenido con fines educativos. Recomiendo usar una licencia tipo CC BY-NC-SA si quieres permitir que otros usen el material con fines no comerciales y con atribución. Si quieres, puedo añadir un fichero `LICENSE` con la licencia escogida.
 
 Contacto
 
