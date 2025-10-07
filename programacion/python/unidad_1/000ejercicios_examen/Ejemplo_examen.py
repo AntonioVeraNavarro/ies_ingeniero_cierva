@@ -16,6 +16,14 @@ print(text2.strip()) # .strip quita espacios al principio y al final
 
 # python no tiene funcion ignorar case (que sepamos)
 
+# TIPOS DE DATOS
+# int = enteros
+# float = decimales
+# str = cadenas de texto
+# bool = booleanos (True o False)
+
+
+# OPERADORES LOGICOS
 # "Y" = "and"
 # "O" = "or"
 # "NO" = "not"

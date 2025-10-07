@@ -34,6 +34,16 @@ public class Ejemplo_examen {
 		System.out.println("El texto esta en mayusculas");
 	}
 
+	// TIPOS DE DATOS
+	// int = entero
+	// double = decimal
+	// String = cadena de texto
+	// boolean = true/false
+
+	
+
+
+	// OPERADORES LOGICOS
 	// "Y" = "&&"
 	// "O" = "||"
 	// "NO" = "!"
