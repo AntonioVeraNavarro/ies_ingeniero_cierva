@@ -7,7 +7,6 @@ public class Ejemplo08{
 		 System.out.print("Introduce un numero entero: ");
 		 int numero1 = Integer.parseInt(teclado.nextLine());
 		 
-
 		 System.out.print("Introduce un numero con decimales: ");
 		 Double numero2 = Double.parseDouble(teclado.nextLine());
 
