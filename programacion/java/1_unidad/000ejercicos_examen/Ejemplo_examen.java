@@ -23,7 +23,7 @@ public class Ejemplo_examen {
     System.out.println("El texto en mayusculas es: " + tex1upper);
 
     System.out.print("Dame un texto: ");
-	String text2 = teclado.nextLine().trim(); //TRIM QUITA ESPACOS EN BLANCO
+	String text2 = teclado.nextLine().trim(); // .trim quita espacios al principio y al final
 	
 	
 	System.out.println(text2);

@@ -12,7 +12,7 @@ print("EL texto en minusculas es: ", text1lower)
 print("El texto en mayusculas es: ", text1upper)
 
 text2 = input("Dame un texto: ")
-print(text2.strip())
+print(text2.strip()) # .strip quita espacios al principio y al final
 
 # python no tiene funcion ignorar case (que sepamos)
 
