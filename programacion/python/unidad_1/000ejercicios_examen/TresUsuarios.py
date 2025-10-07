@@ -1,0 +1,13 @@
+name1 = input("Introduce el nombre del primer usuario: ")
+surname1 = input("Introduce el apellido del primer usuario: ")
+adress1 = input("Introuce la dirección del primer usuario: ")
+name2 = input("Introduce el nombre del segundo usuario: ")
+surname2 = input("Introduce el apellido del segundo usuario: ")
+adress2 = input("Introduce la dirección del segundo usuario: ")
+name3 = input("Introduce el nombre del tercer usuario: ")
+surname3 = input("Introduce el apellido del tercer usuario: ")
+adress3 = input("Introduce la dirección del tercer usuario: ")
+
+print(f"El primer usuario se llama {name1} {surname1} y vive en {adress1}.")
+print("El segundo usuario se llama " + name2 + " " + surname2 + " y vive en " + adress2 + ".")
+print("El tercer usuario se llama", name3, surname3, "y vive en", adress3,".")
