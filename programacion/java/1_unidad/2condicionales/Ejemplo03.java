@@ -5,7 +5,8 @@ public class Ejemplo03{
 
 		System.out.print("Introduce un numero: ");
 
-		int numero = teclado.nextInt();
+		//int numero = teclado.nextInt();
+		int numero = Integer.parseInt(teclado.nextLine());
 
 		System.out.println("Condicion: " + (numero > 0));
 
