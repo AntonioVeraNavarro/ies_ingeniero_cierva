@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>El Diario Semántico</title>
+        <meta name="description" content="Periódico de ejemplo usando HTML semántico." />
+        <style>
+            body {
+                font-family:system-ui,Arial,sans-serif;
+                margin:0;
+                line-height:1.5
+            }
+            .contenedor {
+                max-width:980px;
+                margin:0 auto;
+                padding:1rem
+            }
+            img {
+                max-width:100%;
+                height:auto
+            }
+            header, nav, main, section, article, aside, footer {
+                margin-bottom:1rem
+            }
+            hr {
+                margin:1rem 0
+            }
+        </style>
+    </head>
+
+<body>
+        <a href="#contenido">Saltar al contenido</a>
+
+        <header>
+            <div class="contenedor">
+                <h1>El Diario <strong>Semántico</strong></h1>
+                <small>Noticias claras con HTML claro</small>
+            </div>
+        </header>
+
+    <nav aria-label="navegación principal">
+        <div class="contenedor">
+            <ul>
+                <li><a href="#actualidad">Actualidad</a></li>
+                <li><a href="#tecnologia">Tecnología</a></li>
+                <li><a href="#deportes">Deportes</a></li>
+                <li><a href="#opinion">Opinión</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="contenedor" id="contenido">
+    
+        <main>
+
+                <section id="actualidad" aria-labelledby="tit-actualidad">
+            <header>
+                <h2 id="tit-actualidad">Actualidad</h2>
+                <p>
+                    <time datetime="2025-10-20">Lunes, 20 de octubre de 2025</time> · <small>Última hora</small>
+                </p>
+            </header>
+
+            <article aria-labelledby="a1-tit">
+                <header>
+                    <h3 id="a1-tit">El centro histórico estrena zona peatonal</h3>
+                    <p>
+                        Por <address style="display:inline">Redacción</address> · <time datetime="2025-10-20T08:30">08:30</time> · <small>Lectura: 3 min</small>
+                    </p>
+                </header>
+
+                <figure>
+                    <img src="" alt="Vista del centro histórico con peatones paseando.">
+                    <figcaption>La medida busca reducir el tráfico y fomentar el comercio local.</figcaption>
+                </figure>
+
+                <p>
+                    La nueva <strong>zona peatonal</strong> abarca tres manzanas y prioriza al peatón y la bici.
+                    Habrá <mark>bonos de transporte</mark> y más árboles. Comerciantes esperan más clientela.
+                </p>
+                <p>
+                    Expertos en <abbr title="Planificación Urbana">PU</abbr> señalan que estas acciones mejoran la calidad del aire.
+                    <em>“Lo importante es medir el impacto a seis meses”</em>, apuntan.
+                </p>
+
+                <details>
+                    <summary>Cómo se implementará</summary>
+                    <ul>
+                        <li>Señalización y mobiliario urbano nuevo</li>
+                        <li>Itinerarios accesibles y rampas</li>
+                        <li>Refuerzo de líneas de bus</li>
+                    </ul>
+                </details>
+
+                <footer>
+                    <small>Categorías: Ciudad, Movilidad</small>
+                </footer>
+                <hr>
+            </article>
+
+            <article aria-labelledby="a2-tit">
+                <header>
+                    <h3 id="a2-tit">Sube el empleo en pymes tecnológicas</h3>
+                    <p>
+                        Por <address style="display:inline">Agencias</address> ·
+                        <time datetime="2025-10-20T07:10">07:10</time> ·
+                        <small>Lectura: 2 min</small>
+                    </p>
+                </header>
+
+                <p>
+                    Las pymes del sector <strong>tech</strong> registran un crecimiento del 12%.
+                    Programación, ciberseguridad y <em>datos</em> lideran las contrataciones.
+                </p>
+
+                <blockquote cite="https://example.org">
+                    “Invertir en formación técnica es esencial para competir internacionalmente”.
+                </blockquote>
+
+                <footer>
+                    <small>Categorías: Economía, Trabajo</small>
+                </footer>
+                </article>
+            </section>
+
+            <section id="tecnologia" aria-labelledby="tit-tecno">
+                <header>
+                    <h2 id="tit-tecno">Tecnología</h2>
+                    <p><small>Innovación</small></p>
+                </header>
+
+                <article aria-labelledby="a3-tit">
+                    <header>
+                        <h3 id="a3-tit">Nueva actualización para dispositivos móviles</h3>
+                        <p>
+                            Por <address style="display:inline">Laura Codes</address> ·
+                            <time datetime="2025-10-19T18:00">Ayer, 18:00</time> ·
+                            <small>Lectura: 4 min</small>
+                        </p>
+                    </header>
+
+                    <p>
+                        La versión 15.4 incorpora mejoras de rendimiento y un modo de ahorro inteligente.
+                        También incluye parches de <strong>seguridad</strong> y nuevas APIs para desarrolladores.
+                    </p>
+
+                    <figure>
+                        <img src="" alt="Teléfono mostrando pantalla de ajustes de actualización.">
+                        <figcaption>Recomendado actualizar con el dispositivo cargado al menos al 50%.</figcaption>
+                    </figure>
+
+                    <ol>
+                        <li>Respalda tus datos</li>
+                        <li>Conecta a Wi-Fi</li>
+                        <li>Inicia la actualización</li>
+                    </ol>
+
+                    <footer>
+                        <small>Categorías: Software, Móviles</small>
+                    </footer>
+                </article>
+            </section>
+        </main>
+
+        <aside aria-label="noticias relacionadas">
+            <h2>Noticias relacionadas</h2>
+            <ul>
+                <li><a href="#">Guía rápida de movilidad sostenible</a></li>
+                <li><a href="#">Cómo medir la calidad del aire en tu barrio</a></li>
+                <li><a href="#">5 apps útiles para ciclistas urbanos</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="contenedor">
+            <p>&copy; <time datetime="2025">2025</time> El Diario Semántico. Todos los derechos reservados.</p>
+            <address>
+                Redacción: Calle Ejemplo 123, Ciudad ·
+                <a href="mailto:contacto@eldiario-semantico.test">contacto@eldiario-semantico.test</a>
+            </address>
+            <small>Hecho con etiquetas semánticas de HTML5.</small>
+        </div>
+    </footer>
+</body>
+</html>

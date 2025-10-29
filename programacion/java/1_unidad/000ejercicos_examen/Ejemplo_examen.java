@@ -51,6 +51,6 @@ public class Ejemplo_examen {
 	// "!=" = distinto
 	// "porcentaje" = "%"
 	
-	
+	teclado.close();
     }
 }
