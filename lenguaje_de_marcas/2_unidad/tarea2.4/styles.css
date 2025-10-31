@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue
+}
+
+header h1 {
+    color: darkgreen;
+}
+
+header nav a {
+    text-decoration: none;
+    text-align: center;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#futbol li, #baloncesto li {
+    font-size: 1.2em;
+}
+
+#baloncesto p {
+    font-style: italic;
+}
+
+#fondo-yellow {
+    background-color: yellow;
+}
+
+#futbol li:nth-child(2), #baloncesto li:nth-child(2) {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#borde {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#futbol h2 {
+    color: blue;
+}
+#baloncesto h2 {
+    color: orange;
+}
+#natacion h2 {
+    color: purple;
+}
