@@ -1,4 +1,4 @@
 
 # Explicaciones
 
-Este contenido está proporcionado por Antonio Molina.
+Este contenido está proporcionado por Antonio Molina, compañero de clase.
