@@ -13,8 +13,16 @@ else:
     
     for i in range(menor, mayor +1):
         esPrimo = True
+        raiz = int(math.sqrt(i))
         
-        for j in range(2, int(math.sqrt(i)) + 1):
+        if i == 2:
+            print(2)
+            continue
+        
+        if i % 2 == 0:
+            continue
+        
+        for j in range(3, raiz + 2):
             
             if i % j == 0:
                 esPrimo = False
@@ -22,4 +30,5 @@ else:
             
         if esPrimo and i > 1:
             print(i)
+            
 print("Fin del programa.")

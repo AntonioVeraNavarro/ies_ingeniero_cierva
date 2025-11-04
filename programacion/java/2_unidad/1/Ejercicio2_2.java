@@ -1,6 +1,6 @@
 import java.util.Scanner;
 // sacar todos los números primos entre dos números introducidos por teclado (ambos inclusive)
-public class Ejercicio2 {
+public class Ejercicio2_2 {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
 
@@ -20,15 +20,23 @@ public class Ejercicio2 {
             for (int i = menor; i <= mayor; i++) {
                 esPrimo = true;
 
-                for (int j = 2; j <= Math.sqrt(i); j++) {
-                    
+                if (i == 2) {
+                    System.out.println(2);
+                    continue;
+                }
+
+                if (i % 2 == 0) {
+                    continue;
+                }
+
+                for (int j = 3; j <= Math.sqrt(i); j += 2) {
                     if (i % j == 0) {
                         esPrimo = false;
                         break;
                     }
                 }
-                
-                if (esPrimo && i > 1) {
+
+                if (esPrimo) {
                     System.out.println(i);
                 }
             }

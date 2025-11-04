@@ -10,8 +10,16 @@ header nav a {
     text-decoration: none;
     text-align: center;
 }
+
+/* si lo visitas se te pone en rojo, cuidado */
+header nav a:visited {
+    text-decoration: none;
+    color: red
+}
+
 header nav a:hover {
     text-decoration: underline;
+    text-decoration-color: blue;
 }
 
 #futbol li, #baloncesto li {
@@ -22,16 +30,13 @@ header nav a:hover {
     font-style: italic;
 }
 
-#fondo-yellow {
+#natacion li span {
     background-color: yellow;
 }
 
-#futbol li:nth-child(2), #baloncesto li:nth-child(2) {
+#futbol li:nth-child(2) span, #baloncesto li:nth-child(2) span {
     font-weight: bold;
     text-decoration: underline;
-}
-
-#borde {
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -44,4 +49,38 @@ header nav a:hover {
 }
 #natacion h2 {
     color: purple;
+}
+
+#futbol li:nth-child(1), #baloncesto li:nth-child(1), #natacion li:nth-child(1) {
+    color: brown;
+}
+
+footer {
+    font-family: monospace;
+}
+
+nav li:nth-child(2) span{
+    background-color: orange;
+}
+
+li:last-child span {
+    border: 2px solid red;
+}
+
+li:nth-child(2), #en2 {
+    color: purple;
+}
+
+#en1, nav li:first-child, #futbol li:last-child, #baloncesto li:last-child, #natacion li:last-child {
+    color: red;
+}
+
+img {
+    width: 200px;
+    height: 120px;
+    box-shadow: 5px 5px black;
+}
+
+section {
+    margin-top: 5px;
 }
